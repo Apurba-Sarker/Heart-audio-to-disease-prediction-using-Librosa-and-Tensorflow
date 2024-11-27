@@ -1,19 +1,31 @@
-# Biomed Datathon 2024 - Team Cookie Monsters
+# Biomed Datathon 2024 - Team 100% Inaccuracy
 
-This repository contains the solution for the Biomed Datathon 2024 organized by the mHealth Lab, Department of BME, BUET. Team Cookie Monsters participated in this competition, and the goal was to develop a solution for the given biomedical problem.
+This repository contains the solution for the **Biomed Datathon 2024** organized by the mHealth Lab, Department of BME, BUET. Team **100% Inaccuracy** participated in this competition and secured **7th place** in the Kaggle round.
 
 ## Team Members
-- *Apurba Sarker* (ME-18, BUET)
-- *Mashaekh Tausif Ehsan* (ME-18, BUET)
-- *Mohammad Ismail* (ME-18, BUET)
+
+- **Apurba Sarker** (ME-18, BUET)  
+- **Mashaekh Tausif Ehsan** (ME-18, BUET)  
+- **Mohammad Ismail** (ME-18, BUET)  
+
+---
 
 ## Overview
 
-This project contains the solution for the competition's Kaggle round, where our team achieved 7th place.
+The project focuses on building a machine learning pipeline for classifying heart conditions from phonocardiogram (PCG) data. The main components of the solution include:
+
+- **Audio Feature Extraction:** Leveraging Mel-Frequency Cepstral Coefficients (MFCCs).
+- **Neural Network Design:** Multi-label classification to predict heart conditions.
+- **Performance Evaluation:** Model accuracy, precision, recall, and F1-score.
+- **Submission Generation:** Producing a Kaggle-compatible CSV for results.
+
+---
 
 ## Installation
 
-To get started with the repository, clone it and install the necessary dependencies:
+To set up the repository locally, clone the repository and install the required dependencies.
 
+### Clone the Repository:
 ```bash
 git clone https://github.com/yourusername/biomed-datathon-2024.git
+cd biomed-datathon-2024
